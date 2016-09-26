@@ -4,8 +4,6 @@ __author__ = "Ali Ali"
 # aaa2zu
 # hello.py
 
-def greeting(msg):
-    return msg
+from helper import greeting
 
-message = greeting("Hello!")
-print (message)
+print (greeting("Hello!"))
