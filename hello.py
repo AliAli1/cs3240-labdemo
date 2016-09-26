@@ -4,4 +4,8 @@ __author__ = "Ali Ali"
 # aaa2zu
 # hello.py
 
-print ("Hello World!")
+def greeting(msg):
+    return msg
+
+message = greeting("Hello!")
+print (message)
